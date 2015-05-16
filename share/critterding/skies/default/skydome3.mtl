@@ -1,0 +1,19 @@
+# Blender3D MTL File: SkyDome-Example.blend
+# Material Count: 1
+
+#newmtl cdfixmaterialb
+
+newmtl Material.001_SkyDome-Cloud-Medium-
+Ns 96.0078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 0
+#map_Kd textures/SkyDome-Cloud-Medium-MidMorning.png
+map_Kd textures/603.jpg
+
+#newmtl cdfixmaterialb
+
+

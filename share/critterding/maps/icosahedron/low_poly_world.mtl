@@ -1,0 +1,13 @@
+# Blender MTL File: 'lowpoly_planet_primative.blend'
+# Material Count: 1
+
+newmtl Material.002
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/terraria_sand2.jpg
+map_bump ../../pixmaps/terraria_sand2_normal.jpg

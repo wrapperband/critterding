@@ -1,0 +1,17 @@
+roundworld 1
+map planet
+
+worldsizeX 150
+worldsizeY 150
+worldsizeZ 150
+energy 250
+
+mincritters 10
+skybox_rotationZ 50
+critter_maxlifetime 1000000
+
+population_eliminate_portion 160
+population_eliminate_portion_decrenergy 0
+population_eliminate_portion_incrworldsizeX 1
+population_eliminate_portion_incrworldsizeY 1
+population_eliminate_portion_incrworldsizeZ 1

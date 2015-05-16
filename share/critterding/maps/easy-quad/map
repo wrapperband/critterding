@@ -1,0 +1,5 @@
+maptype = obj 
+obj = easy-quad.obj
+scale = 5.0 5.0 5.0
+position = 130 0 70
+rotation = 0 0 0

@@ -1,0 +1,23 @@
+benchmark 1
+benchmark_frames 13000
+startseed 130
+threads 4
+drawscene 1
+
+
+worldsizeX 25
+worldsizeZ 25
+worldsizeY 100
+critter_maxlifetime 2000
+food_maxlifetime 1500
+energy 300
+mincritters 5
+body_mutationrate 200
+body_maxmutations 4
+brain_mutationrate 200
+brain_maxmutations 10
+population_eliminate_portion 140
+population_eliminate_portion_percent 40
+population_eliminate_portion_decrenergy 0
+population_eliminate_portion_incrworldsizeX 1
+population_eliminate_portion_incrworldsizeZ 1

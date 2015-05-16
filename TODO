@@ -1,0 +1,204 @@
+X lighting fix
+
+X rotate sun in roundworld
+
+X select species from species panel
+
+X fetch/catch file & bzip2 operations
+
+X weight calculation fixes
+
+X infostats fixes
+
+X new framelimiter
+
+X roundworld option in map file > made profile instead
+
+X correct XYZ axis
+
+X roundworld profile: killhaf_increaseZ 1
+
+X map scaling
+
+X debug drawer fixes
+
+X check all "map" files
+
+X fix --race
+
+X put a cap on food_lifetime insertion interval
+
+X default texture for textureless materials
+
+X crash when grabbing and canvas disabled
+
+X <Eth|cal> sometimes critters flicker between white and normal colour in the critterview
+
+X turn sun at roundworld
+
+X fpslimit stopped working? 
+
+X skyboxes
+
+X CRITTER VISION TIED TO SKY
+
+X fixed critter_procinterval
+
+- check if limit 1 & limit 2 seperate constraints works out
+
+- exclude carnivores from eating herbs a
+
+- rename all percent mutatables to weights
+
+- read sightrange from critterb
+
+- couple cost to sightrange if mutate is on
+
+- parent & child cannot eat each other (can't eat in 1st perfect of life + can't eat right after birth)
+
+- fix maxlifetime mutating
+
+- skybox goes bigger than worldsize > tune critter/cam vision zfar & exapand skybox again.
+
+- same alpha on food as critter?
+
+- options for which map to load?
+
+- follow mode: roundworld just needs it's orientation fixed in 
+
+- follow mode: check that raycaster, seems off
+
+- draw the sun
+
+- console output garbage
+
+- roundworld gravity related to worldsize
+
+- load / save slots
+
+- shader cleanups
+
+- observed offsetted bodypart<>constraint position
+
+- cube food option
+
+- physics material files
+
+- mutate maxlifetime + mincprocreate_energy + sightrange!!!!!! finish these
+
+- position = gl_ModelViewMatrix * gl_Vertex; >>>>>>>>> gl_ModelViewProjectionMatrix * gl_Vertex;
+
+- physics_materials.xml
+
+- pulse contract constraints in & out? caterpillar
+
+- immortal option on critters
+
+- option to alter insert height of food & adams
+
+- critter follow mouse-rotatable around critter
+
+- select multiple autoexchange dirs
+
+- render critters in species order, less glcolor calls
+
+- resize brainviews mininimum size
+
+- hover above critter camera mode
+
+X make critter vision alpha factor relate to species
+
+- grep these: BeWidgetPtr get( const std::string name );
+
+- save selected critters only?
+
+- Window Headers as in F1 window
+
+- default settings for brainview
+
+- check all settings
+
+- remove 1 pixel spacer in crittervision!
+
+X killhalf settings to F12, make % population_eliminate_limt
+
+- option to allow multiple connections / plane
+
+- test crash & limits of 2.5 million+ synapses / critter when opening brainview
+
+- field of view broken
+
+
+beta13.1
+--------
+
+X bzip compression on critters
+
+X disabled testworld & concaveworld
+
+X OpenMP is now optional
+
+X fix make install
+
+X removed obsolete libusb dependency
+
+X fix: autoexchange segfault
+
+X boost linking fix
+
+beta13
+------
+
+X selfcollisions & camera precision in f6 window
+
+X fix/disable autoexchange
+
+X optimise, make theaded & fix brainview further
+
+X make bullet static
+
+X changed decreasing energy by percentage to the unit
+
+X activate food when map changes
+
+X cost / bodypart
+
+X mutationrate : more precise
+
+X rejuvenate like 25%
+
+X adapt F1 panel
+
+X test dying critter on constraint
+
+X segfault when duplicating critters
+
+X retina of critters : 2048 x 2048 atm, do like cd2
+  retinasperrow in worldb ???
+
+X optimise neuroninterz process (cachegrind)
+
+X when switching fs, reposition the hud
+
+X pixel offset in the hud
+
+X adjust brain weights for more synapses
+
+X braincosts & bodycosts, smaller influence
+
+X lighting & colors
+
+X food count reporting fix
+
+X fix freeEnergy floating point drift
+
+X speciesview is not accurate, wrong color with wrong number of neurons
+
+X if the SEEN critter  (by critter) is of the same species, differentiate by alpha
+
+X threads in other modes
+
+X simply do not insert food if > critters kill limit
+
+X critters can now see if other critters are of the same species
+

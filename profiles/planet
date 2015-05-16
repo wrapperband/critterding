@@ -1,0 +1,10 @@
+roundworld 1
+map planet
+
+worldsizeX 1000
+worldsizeY 1000
+worldsizeZ 1000
+energy 2000
+
+mincritters 40
+skybox_rotationZ 50

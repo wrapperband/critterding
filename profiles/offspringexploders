@@ -1,0 +1,6 @@
+map medium-quad
+critter_procinterval 0
+critter_enableomnivores 1
+critter_minenergyproc 1000
+population_eliminate_portion 200
+population_eliminate_portion_decrenergy 1

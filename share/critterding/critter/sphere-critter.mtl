@@ -1,0 +1,13 @@
+# Blender MTL File: 'critter_body3.blend'
+# Material Count: 1
+
+newmtl Material
+Ns 96.0
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.5 0.5 0.5
+Ni 1.000000
+d 0.0
+illum 0
+map_Kd textures/skin2_UV_rgb2.jpg
+map_bump textures/skin2_UV_normal.jpg

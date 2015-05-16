@@ -1,0 +1,17 @@
+worldsizeX 50
+worldsizeZ 50
+worldsizeY 100
+critter_maxlifetime 2000
+food_maxlifetime 10000
+energy 500
+mincritters 20
+body_mutationrate 160
+body_maxmutations 4
+brain_mutationrate 160
+brain_maxmutations 10
+brain_maxneuronsatbuildtime 40
+population_eliminate_portion 300
+population_eliminate_portion_percent 20
+population_eliminate_portion_decrenergy 0
+population_eliminate_portion_incrworldsizeX 1
+population_eliminate_portion_incrworldsizeZ 1

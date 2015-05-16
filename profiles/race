@@ -1,0 +1,17 @@
+race 1
+
+mincritters 23
+
+worldsizeX 385
+worldsizeZ 200
+
+critter_maxlifetime 3000
+critter_maxenergy 50000
+
+brain_mutationrate 300
+brain_maxmutations 12
+
+body_mutationrate 300
+body_maxmutations 4
+
+population_eliminate_portion_percent 66

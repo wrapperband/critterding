@@ -1,0 +1,7 @@
+benchmark 1
+benchmark_frames 10000
+startseed 130
+threads 4
+energy 0
+mincritters 100
+drawscene 1

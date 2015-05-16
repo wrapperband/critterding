@@ -1,0 +1,4 @@
+﻿<root>
+  <graphics_material texture_path="_er-tree.png" sort="1" priority="1" depth_mask="1" depth_test="1" blend="0"/>
+</root>
+

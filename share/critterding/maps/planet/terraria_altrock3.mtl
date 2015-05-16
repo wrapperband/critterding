@@ -1,0 +1,93 @@
+# Blender MTL File: 'planet5.blend'
+# Material Count: 10
+
+newmtl Material.005
+Ns 26.0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 0.0
+illum 2
+map_Kd ../../pixmaps/altstone_texture1.jpg
+map_bump ../../pixmaps/altstone_normal1.jpg
+
+newmtl cliff
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/sam_pinkstone2.jpg
+
+newmtl lake1
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/sam_gravel.jpg
+
+newmtl region1
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/sam_gravel.jpg
+
+newmtl region2
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/sam_gravel.jpg
+
+newmtl region3
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/sam_gravel.jpg
+
+newmtl region4
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/sam_gravel.jpg
+
+newmtl region5
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/sam_gravel.jpg
+
+newmtl rock
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../pixmaps/sam_pinkstone2.jpg

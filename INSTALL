@@ -1,0 +1,41 @@
+Requirements for Linux/Unix
+===========================
+
+   gcc 4.5+
+   bzip2
+   freetype2
+   SDL
+   boost filesystem 1.43+
+   qt (for textures)
+
+Basic Compilation
+==================
+
+   AUTOMATIC
+   > ./compile-release.sh [threads]
+
+   OR
+
+   (optional, but recommended)
+   > export CXXFLAGS="-march=native -Ofast"
+
+   > cmake . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+
+   > make
+
+   (optional, as root)
+   > make install
+
+Execution
+=========
+
+   > critterding
+
+   (or without having done "make install")
+   > ./src/critterding
+
+Problems
+========
+
+   IRC 
+     channel #critterding on server irc.freenode.org

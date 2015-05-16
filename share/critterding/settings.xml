@@ -1,0 +1,84 @@
+﻿<root>
+	<input_mouse_axis axis="0" action="movepickedbodyX"	min="0" max="10000" map_min="0" map_max="0" />
+	<input_mouse_axis axis="1" action="movepickedbodyY"	min="0" max="10000" map_min="0" map_max="0" />
+
+ 	<input_mouse_axis axis="2" action="camera_lookleftright_mouse"	min="-10000" max="10000" map_min="0" map_max="0" /> 
+ 	<input_mouse_axis axis="3" action="camera_lookupdown_mouse"	min="-10000" max="10000" map_min="0" map_max="0" /> 
+	
+	<input_mouse_button button="1" action="critter_select" />
+	<input_mouse_button button="3" action="critter_pick" />
+	<input_mouse_button button="3" keystate="up" action="critter_unpick" />
+
+<!-- 	<input_mouse_button button="2" action="camera_resetposition" /> -->
+	<input_mouse_button button="2" action="critter_follow" />
+
+	
+	<input_mouse_button button="4"  action="camera_moveforward" />
+	<input_mouse_button button="5"  action="camera_movebackward" />
+	
+<!--	<input_mouse_button button="4" action="camera_moveforward" />
+	<input_mouse_button button="5" action="camera_movebackward" />-->
+
+	<input_keyboard key="tab" action="gui_togglepanel" param="speciesview" />
+	<input_keyboard key="escape" action="gui_togglepanel" param="panel_exit" />
+	<input_keyboard key="f1" action="gui_togglepanel" param="helpinfo" />
+	<input_keyboard key="f2" action="gui_togglepanel" param="infobar" />
+	<input_keyboard key="f3" action="gui_togglepanel" param="infostats" />
+	<input_keyboard key="f4" action="gui_togglepanel" param="textverbosemessage" />
+	<input_keyboard key="f5" action="gui_togglepanel" param="statsgraph" />
+	<input_keyboard key="f6" action="gui_togglepanel" param="globalsettingspanel" />
+	<input_keyboard key="f7" action="gui_togglepanel" param="enginesettingspanel" />
+	<input_keyboard key="f8" action="gui_togglepanel" param="hud" />
+
+	<input_keyboard key="f9" action="gui_togglepanel" param="mutationpanel" />
+	<input_keyboard key="f10" action="gui_togglepanel" param="populationcontrolpanel" />
+	<input_keyboard key="f11" action="gui_togglepanel" param="settingsbodypanel" />
+	<input_keyboard key="f12" action="gui_togglepanel" param="settingsbrainpanel" />
+	
+	<input_keyboard key="f" action="settings_increase" param="window_fullscreen" />
+	<input_keyboard key="r" action="settings_increase" param="drawscene" />
+	<input_keyboard key="d" action="settings_increase" param="drawdebug" />
+	<input_keyboard key="p" action="toggle_pause" />
+
+	<input_keyboard key="l" action="settings_increase" param="fpslimit" />
+	<input_keyboard key="m" action="toggle_mouselook" />
+	<input_keyboard key="s" action="settings_saveprofile" param="profiles" />
+	<input_keyboard key="h" action="gui_toggle" />
+
+	<input_keyboard key="[/]" action="settings_decrease" param="camerasensitivity_move" repeat="1" delay="150" />
+	<input_keyboard key="[*]" action="settings_increase" param="camerasensitivity_move" repeat="1" delay="150" />
+
+	<input_keyboard key="v" action="settings_increase" param="camera_mode" />
+	
+	<input_keyboard key="c" action="settings_increase" param="colormode" />
+
+<!-- 	<input_keyboard key="f9" action="settings_decrease" param="body_mutationrate" repeat="1" delay="150" /> -->
+<!-- 	<input_keyboard key="f10" action="settings_increase" param="body_mutationrate" repeat="1" delay="150" /> -->
+<!-- 	<input_keyboard key="f11" action="settings_decrease" param="brain_mutationrate" repeat="1" delay="150" /> -->
+<!-- 	<input_keyboard key="f12" action="settings_increase" param="brain_mutationrate" repeat="1" delay="150" /> -->
+	
+	<input_keyboard key="page up" action="loadallcritters" />
+	<input_keyboard key="page down" action="saveallcritters" />
+	<input_keyboard key="i" action="insertcritter" />
+	<input_keyboard key="k" action="killhalfofcritters" />
+
+	<input_keyboard key="-" action="decreaseenergy" repeat="1" delay="150" />
+	<input_keyboard key="+" action="increaseenergy" repeat="1" delay="150" />
+	<input_keyboard key="[-]" action="decreaseenergy" repeat="1" delay="150" />
+	<input_keyboard key="[+]" action="increaseenergy" repeat="1" delay="150" />
+
+        <input_keyboard key="backspace" action="camera_resetposition" />
+	<input_keyboard key="home"  action="camera_moveup" repeat="1" />
+	<input_keyboard key="end"  action="camera_movedown" repeat="1" />
+	<input_keyboard key="up"  action="camera_moveforward" repeat="1" />
+	<input_keyboard key="down"  action="camera_movebackward" repeat="1" />
+	<input_keyboard key="right"  action="camera_moveright" repeat="1" />
+	<input_keyboard key="left"  action="camera_moveleft" repeat="1" />
+	<input_keyboard key="[2]"  action="camera_lookup" repeat="1" />
+	<input_keyboard key="[8]"  action="camera_lookdown" repeat="1" />
+	<input_keyboard key="[4]"  action="camera_lookleft" repeat="1" />
+	<input_keyboard key="[6]"  action="camera_lookright" repeat="1" />
+<!-- 	<input_keyboard key="[1]"  action="camera_rollleft" repeat="1" /> -->
+<!-- 	<input_keyboard key="[3]"  action="camera_rollright" repeat="1" /> -->
+</root>
+

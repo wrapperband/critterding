@@ -1,0 +1,15 @@
+worldsizeX 25
+worldsizeZ 25
+worldsizeY 250
+critter_maxlifetime 600
+food_maxlifetime 1000
+energy 300
+mincritters 5
+body_mutationrate 500
+body_maxmutations 50
+brain_mutationrate 500
+brain_maxmutations 50
+population_eliminate_portion 160
+body_maxconstraintangle 15706
+body_maxconstraintlimit 12000
+body_constraintpositionrange 0

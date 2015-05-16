@@ -1,0 +1,11 @@
+worldsizeX 30
+worldsizeZ 30
+worldsizeY 100
+critter_maxlifetime 10000
+food_maxlifetime 10000
+energy 250
+mincritters 20
+population_eliminate_portion 160
+population_eliminate_portion_decrenergy 0
+population_eliminate_portion_incrworldsizeX 1
+population_eliminate_portion_incrworldsizeZ 1

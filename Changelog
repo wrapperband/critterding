@@ -1,0 +1,159 @@
+1.0-beta14
+------------
+custom maps (wavefront)
+normal mapping
+textures
+customizable lightsource
+critter cameras
+select species from species panel
+weight calculation fixes
+debug drawer for physics
+
+1.0-beta13.1
+------------
+make install
+bzip compression on critters
+OpenMP is now optional
+removed libusb dependency
+autoexchange segfault fix
+boost linking fix
+a few cleanups
+
+1.0-beta13
+----------
+bodypart selfcollisions fix (thanks ScribbleJ)
+roundworld gravity fix (thanks Sam Porter)
+refactored critter brains, muscles
+refactored brainview & species windows
+upgrade bullet physics and link it statically
+decrease energy by the unit instead of percent
+added energy cost of bodyparts and weight
+mutationrates are now permille instead of percent
+opengllighting fix & more contrasting critter colors
+food count reporting fix
+critters can see if critter is of the same species or not
+customisable keybindings ( settings.xml )
+threading fixes
+switched to cmake
+fullscreen & window resizing fixes
+hundreds of fixes and cleanups
+
+
+1.0-beta12.1
+------------
+catch segfault and warn when using headless without critter_raycastvision
+some fixes and cleanups
+
+1.0-beta12
+----------
+critter selection and actions (kill, duplicate)
+new panels: neural net brainviewer, hud, species list
+touchingcritter brain input fix
+profile saves to ~/critterding/save/(profile)/(profile).pro
+toggle rendering of gui and scene (h & r)
+font switch to DejaVuSans
+an icon thanks to jrabbit
+new options:
+ --roundworld: a round planet
+ --benchmark: times a scene of 10000 frames
+ --headless: console mode
+ --startseed: seed for the random number generator
+ --killhalf_incrworldsizeX/Y: option to increase worldsize when killhalf triggers
+ --killhalf_decrmaxlifetimepct: option to decrease critter maxlifetime when killhalf triggers
+ --critter_raycastvision: raycast vision for critters
+ --threads, number of threads, making openmp (comes with gcc4.2+) a requirement
+build system: 
+ if available, build against system ftgl (pass --disable-system-ftgl to use internal)
+ make install
+many fixes, cleanups & changes
+
+1.0-beta11
+---------
+improved keyboard / mouse input handling
+improved gui with panels for realtime setting manipulation,
+critters vs food graph,
+exit panel (esc no longer exits)
+a few more body mutations
+fix: critter autosaving timer
+fix: crashes on exit
+many more fixes and cleanups
+
+1.0-beta10
+---------
+changed the physics backend to Bullet Physics
+changed input and window backend to SDL
+a racing mode
+mouse support for looking and interactivity
+profile saving (patch from Eric Burton)
+fullscreen support
+many improvements, fixes and cleanups overall
+
+1.0-beta9
+---------
+dedicated skincolors for herbivores(Red/Blue) / carnivores(Green/Blue)
+bullets no longer shoot through walls
+world is no longer fixed to a square
+fps limiter
+introduced text rendering with fglx
+improved synaptic plasticity
+slightly improved wall system
+--autoload option
+cleaned up critter files
+color inputneurons get less discrete input
+many fixes and cleanups
+
+1.0-beta8
+---------
+new: custom settings profiles, critter autosaving, exit-if-empty
+corpses and carrying are disabled at default
+various fixes and cleanups
+
+1.0-beta7
+---------
+critters are now classified as herbivore or carnivore
+corpse is poison to a herbivore/green food is poison to a carnivore
+fixed a alpha color bug in critter vision (vidia cards)
+engine improvements: backface & frustrum culling + display lists
+more efficient copying of brains at procreation time
+simplified (more usable) camera with adjustable sensitivity
+critters can now pick up and drop food
+
+1.0-beta6
+---------
+age input neurons
+started testing a corpse entity
+discovered and fixed retina to input mapping bug
+visibility enhancement by allowing only bright colors
+bullet hit: half of lifetime lost
+camera autopositioning according to world size
+--small, --medium, --big and --huge options
+
+1.0-beta5
+---------
+Options have boundary checks now
+improved command line option handling
+f1 pauses and prints settings / keys
+increased evolution rate by tuned defaults settings
+fixed README mistakes
+
+1.0-beta4
+---------
+adaptable colorneurons, default is now 3 instead of 2
+adaptable retinasize, default is nog 7 instead of 10
+all (38) initial brain settings have been made adaptable
+provided an option to flip newborn critters 180 degrees
+simple --help implemented
+many minor fixes and cleanups
+
+1.0-beta3
+---------
+fixes minor memleaks & speedups
+brain.clearInputs() implementation                             
+critter & food size have been made adaptable
+make sure we only load files with extension cr
+Retinas Per Row is now adaptable
+default critter sight distance reduced from 50 to 40: performance boost
+follow camera handles critter sight distance
+cleaned up settings reporting
+updated README
+Start of a Changelog

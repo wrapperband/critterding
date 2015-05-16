@@ -1,0 +1,5 @@
+maptype = obj 
+obj = easy.obj
+scale = 10.0 10.0 10.0
+position = 130 0 70
+rotation = 0 0 0
